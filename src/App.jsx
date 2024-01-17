@@ -1,8 +1,18 @@
 import React from 'react';
 
+import Luces from './components/luces';
+
+
 const App = () => {
+
+    
+
     return (
-        <h1>REACT APP</h1>
+        <div className='semaforo'>
+            
+            <Luces />
+            
+        </div>
     )
 }
 
